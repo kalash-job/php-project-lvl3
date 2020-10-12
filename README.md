@@ -1,6 +1,11 @@
 ### Hexlet tests and linter status:
 ![Actions Status](/workflows/hexlet-check/badge.svg)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/e239df01eac5fce2b1a1/maintainability)](https://codeclimate.com/github/kalash-job/php-project-lvl3/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/e239df01eac5fce2b1a1/test_coverage)](https://codeclimate.com/github/kalash-job/php-project-lvl3/test_coverage)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
