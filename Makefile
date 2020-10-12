@@ -5,10 +5,6 @@ setup:
 	composer install
 	cp -n .env.example .env|| true
 	php artisan key:gen --ansi
-	touch database/database.sqlite
-	php artisan migrate
-	php artisan db:seed
-	npm install
 
 test:
 	php artisan test
@@ -21,3 +17,9 @@ lint:
 
 lint-fix:
 	composer run-script phpcbf -- --standard=PSR12 public tests
+
+test:
+	composer phpunit tests
+
+test-coverage:
+	composer phpunit tests -- --coverage-clover build/logs/clover.xml
