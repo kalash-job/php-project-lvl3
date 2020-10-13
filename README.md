@@ -7,6 +7,7 @@
 
 ![Page-Analyzer-Github-phpActions](https://github.com/kalash-job/php-project-lvl3/workflows/Page-Analyzer-Github-phpActions/badge.svg)
 
+<p>This project is available on heroku by the <a href="https://obscure-basin-69905.herokuapp.com/">link</a></p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
