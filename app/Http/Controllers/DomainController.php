@@ -14,7 +14,7 @@ class DomainController extends Controller
         return view('domain.create', compact('domain'));
     }
 
-    public function normalize(string $domain): string
+    private function normalize(string $domain): string
     {
         $domainParsed = parse_url($domain);
         $scheme = mb_strtolower($domainParsed['scheme'] ?? null);
