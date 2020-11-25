@@ -28,4 +28,30 @@
         </tr>
     </table>
     <h2>Checks</h2>
+    {{ Form::open(['url' => route('domains.checks.store', ['id' => $domain->id]), 'method' => 'post']) }}
+    {{ Form::token() }}
+    {{ Form::submit('Run check') }}
+    {{ Form::close() }}
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>Status Code</td>
+            <td>h1</td>
+            <td>Keywords</td>
+            <td>Description</td>
+            <td>Created At</td>
+        </tr>
+        @if ($domainChecks->isNotEmpty())
+                    @foreach ($domainChecks->all() as $domainCheck)
+                <tr>
+                    <td>{{ $domainCheck->id }}</td>
+                    <td>{{ $domainCheck->status_code }}</td>
+                    <td>{{ $domainCheck->h1 }}</td>
+                    <td>{{ $domainCheck->keywords }}</td>
+                    <td>{{ $domainCheck->description }}</td>
+                    <td>{{ $domainCheck->created_at }}</td>
+                </tr>
+                    @endforeach
+        @endif
+    </table>
 @endsection

@@ -55,12 +55,22 @@ class DomainController extends Controller
         if ($domain->isEmpty()) {
             abort(404);
         }
-        return view('domain.show', ['domain' => $domain[0]]);
+        $domainChecks = DB::table('domain_checks')
+            ->where('domain_id', $id)
+            ->orderBy('id', 'desc')
+            ->get();
+        return view('domain.show', ['domain' => $domain[0], 'domainChecks' => $domainChecks]);
     }
 
     public function index()
     {
-        $domains = DB::table('domains')->get();
+        $domains = DB::table('domains')
+            ->leftJoin('domain_checks', 'domains.id', '=', 'domain_checks.domain_id')
+            ->select('domains.id', 'domains.name', 'domain_checks.status_code', 'domain_checks.created_at')
+            ->distinct('domains.id')
+            ->orderBy('domains.id')
+            ->orderBy('domain_checks.updated_at', 'desc')
+            ->get();
         return view('domain.index', compact('domains'));
     }
 }
