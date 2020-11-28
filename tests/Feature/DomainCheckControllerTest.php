@@ -6,6 +6,7 @@ use Database\Seeders\DomainsTableSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
+use Illuminate\Support\Facades\Http;
 
 class DomainCheckControllerTest extends TestCase
 {
@@ -19,10 +20,10 @@ class DomainCheckControllerTest extends TestCase
 
     public function testStore()
     {
-        $data = [];
-        $response = $this->post(route('domains.checks.store', ['id' => 1]), $data);
+        Http::fake();
+        $response = $this->post(route('domains.checks.store', ['id' => 1]));
         $response->assertSessionHasNoErrors();
         $response->assertRedirect();
-        $this->assertDatabaseHas('domain_checks', ['id' => 1]);
+        $this->assertDatabaseHas('domain_checks', ['id' => 1, 'status_code' => 200]);
     }
 }
