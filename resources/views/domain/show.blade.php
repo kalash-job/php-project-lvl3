@@ -3,9 +3,14 @@
 @section('title', $domain->name)
 
 @section('content')
-    @if (session('status'))
+    @if (session('success'))
         <div class="alert alert-success">
-            {{ session('status') }}
+            {{ session('success') }}
+        </div>
+    @endif
+    @if (session('warning'))
+        <div class="alert alert-warning">
+            {{ session('warning') }}
         </div>
     @endif
     <h1>Site: {{ $domain->name }}</h1>

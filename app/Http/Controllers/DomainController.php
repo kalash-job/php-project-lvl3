@@ -44,7 +44,7 @@ class DomainController extends Controller
             'updated_at' => Carbon::now()->toDateTimeString()
         ]);
         return redirect()->route('domains.show', ['id' => $id])
-            ->with('status', 'Url has been added');
+            ->with('success', 'Url has been added');
     }
 
     public function show($id)
