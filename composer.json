@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel",
+    "name": "hexlet/code",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": [
@@ -12,6 +12,7 @@
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "imangazaliev/didom": "^1.16",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "laravelcollective/html": "^6.2",
