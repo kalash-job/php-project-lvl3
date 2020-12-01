@@ -16,6 +16,7 @@ class DomainsTableSeeder extends Seeder
     public function run()
     {
         $domains = [
+            'https://rukodeling.ru',
             'https://www.php.net',
             'https://yandex.ru',
             'https://ru.hexlet.io',

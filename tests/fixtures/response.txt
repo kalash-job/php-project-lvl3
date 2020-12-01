@@ -1,0 +1,1236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+<title>Главная страница</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Сайт Интернет-магазина &quot;Рукоделинг.ru&quot; - товары для квиллинга, скрапбукинга и флористики по лучшим ценам." />
+<meta name="keywords" content="Квиллинг, Скарпбукинг, товары для хобби, флористика, бумага для квиллинга, инструменты" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<link rel="icon" href="https://rukodeling.ru/skin/frontend/base/theme177/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://rukodeling.ru/skin/frontend/base/theme177/favicon.ico" type="image/x-icon" />
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'https://rukodeling.ru/js/blank.html';
+    var BLANK_IMG = 'https://rukodeling.ru/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://rukodeling.ru/js/df/css/compiled/all.css?v=2.21.13" />
+<link rel="stylesheet" type="text/css" href="https://rukodeling.ru/skin/frontend/base/theme177/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://rukodeling.ru/skin/frontend/base/default/css/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://rukodeling.ru/skin/frontend/rm/default/df/css/compiled/all.css?v=2.21.13" media="all" />
+<link rel="stylesheet" type="text/css" href="https://rukodeling.ru/skin/frontend/base/theme177/css/gmapstrlocator/gmapstrlocator.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://rukodeling.ru/skin/frontend/base/default/css/magebird_popup/style_v148.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://rukodeling.ru/skin/frontend/base/theme177/css/print.css" media="print" />
+<script type="text/javascript" src="https://rukodeling.ru/js/df/js/system/jquery.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/df/js/system/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/lib/ccard.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/prototype/validation.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/varien/js.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/varien/form.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/varien/menu.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/mage/translate.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/mage/cookies.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/js/df/js/compiled/all.js?v=2.21.13"></script>
+<script type="text/javascript" src="https://rukodeling.ru/skin/frontend/rm/default/df/js/compiled/all.js?v=2.21.13"></script>
+<script type="text/javascript" src="https://rukodeling.ru/skin/frontend/rm/default/df/legacy/tweaks/catalog_category_view_fix.js?v=2.21.13"></script>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="https://rukodeling.ru/skin/frontend/base/theme177/css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="https://rukodeling.ru/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="https://rukodeling.ru/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = ["HK","IE","MO","PA"];
+//]]>
+</script>
+<script type="text/javascript" po_cmp_ignore>
+//<![CDATA[
+var mbPopupParams = {"storeId":"1","previewId":0,"templateId":0,"popupPageId":1,"filterId":0,"isAjax":"1","page":"1","requestType":"3","rootUrl":"https:\/\/rukodeling.ru\/","baseUrl":"https%3A%2F%2Frukodeling.ru%2F","ajaxAsync":"true","doGaTracking":"true","doMousetracking":"0","bc":"RUB","cc":"RUB","cs":"\u0440\u0443\u0431.","cf":"1,00\u00a0\u0440\u0443\u0431.","customParams":""};
+
+//]]>
+</script>
+    <script async type="text/javascript" src="https://rukodeling.ru/skin/frontend/base/default/js/magebird_popup/jquery.js"></script>
+    <script async type="text/javascript" src="https://rukodeling.ru/skin/frontend/base/default/js/magebird_popup/main.js?v=1.5.8"></script>        
+ 
+
+<script type="text/javascript">//<![CDATA[
+        var Translator = new Translate({"Please select an option.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043e\u0434\u0438\u043d \u0432\u0430\u0440\u0438\u0430\u043d\u0442.","This is a required field.":"\u042d\u0442\u043e \u043f\u043e\u043b\u0435 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0434\u043b\u044f \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f.","Please enter a valid number in this field.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0432 \u044d\u0442\u043e \u043f\u043e\u043b\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0435 \u0447\u0438\u0441\u043b\u043e.","The value is not within the specified range.":"\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u0435 \u043d\u0435 \u0432\u0445\u043e\u0434\u0438\u0442 \u0432 \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d.","Please use numbers only in this field. Please avoid spaces or other characters such as dots or commas.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0432 \u044d\u0442\u043e\u043c \u043f\u043e\u043b\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0446\u0438\u0444\u0440\u044b. \u0418\u0437\u0431\u0435\u0433\u0430\u0439\u0442\u0435 \u043f\u0440\u043e\u0431\u0435\u043b\u043e\u0432 \u0438\u043b\u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432, \u043d\u0430\u043f\u043e\u0434\u043e\u0431\u0438\u0435 \u0442\u043e\u0447\u0435\u043a \u0438 \u0437\u0430\u043f\u044f\u0442\u044b\u0445.","Please use letters only (a-z or A-Z) in this field.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0432 \u044d\u0442\u043e\u043c \u043f\u043e\u043b\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0431\u0443\u043a\u0432\u044b (a-z \u0438\u043b\u0438 A-Z).","Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0432 \u044d\u0442\u043e\u043c \u043f\u043e\u043b\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0431\u0443\u043a\u0432\u044b (a-z), \u0446\u0438\u0444\u0440\u044b (0-9) \u0438\u043b\u0438 \u043f\u043e\u0434\u0447\u0451\u0440\u043a\u0438\u0432\u0430\u043d\u0438\u044f(_). \u041f\u0435\u0440\u0432\u044b\u0439 \u0441\u0438\u043c\u0432\u043e\u043b \u0434\u043e\u043b\u0436\u0435\u043d \u0431\u044b\u0442\u044c \u0431\u0443\u043a\u0432\u043e\u0439.","Please use only letters (a-z or A-Z) or numbers (0-9) only in this field. No spaces or other characters are allowed.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0432 \u044d\u0442\u043e\u043c \u043f\u043e\u043b\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0431\u0443\u043a\u0432\u044b (a-z \u0438\u043b\u0438 A-Z) \u0438\u043b\u0438 \u0446\u0438\u0444\u0440\u044b (0-9). \u041f\u0440\u043e\u0431\u0435\u043b\u044b \u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0441\u0438\u043c\u0432\u043e\u043b\u044b \u0437\u0430\u043f\u0440\u0435\u0449\u0435\u043d\u044b.","Please use only letters (a-z or A-Z) or numbers (0-9) or spaces and # only in this field.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0432 \u044d\u0442\u043e\u043c \u043f\u043e\u043b\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0431\u0443\u043a\u0432\u044b (a-z \u0438\u043b\u0438 A-Z), \u0446\u0438\u0444\u0440\u044b (0-9), \u043f\u0440\u043e\u0431\u0435\u043b\u044b \u0438\u043b\u0438 #.","Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, (123) 456-7890 \u0438\u043b\u0438 123-456-7890.","Please enter a valid fax number. For example (123) 456-7890 or 123-456-7890.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u0444\u0430\u043a\u0441\u0430. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, (123) 456-7890 \u0438\u043b\u0438 123-456-7890.","Please enter a valid date.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0443\u044e \u0434\u0430\u0442\u0443.","Please enter a valid email address. For example johndoe@domain.com.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u044b (email). \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, ivanivanov@domain.com.","Please use only visible characters and spaces.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u0438\u0434\u0438\u043c\u044b\u0435 \u0441\u0438\u043c\u0432\u043e\u043b\u044b \u0438 \u043f\u0440\u043e\u0431\u0435\u043b\u044b.","Please enter 6 or more characters. Leading or trailing spaces will be ignored.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 6 \u0438\u043b\u0438 \u0431\u043e\u043b\u0435\u0435 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432. \u041f\u0440\u043e\u0431\u0435\u043b\u044b \u043f\u0435\u0440\u0435\u0434 \u0438 \u043f\u043e\u0441\u043b\u0435 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432 \u0431\u0443\u0434\u0443\u0442 \u043f\u0440\u043e\u0438\u0433\u043d\u043e\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u044b.","Please enter 7 or more characters. Password should contain both numeric and alphabetic characters.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 6 \u0438\u043b\u0438 \u0431\u043e\u043b\u0435\u0435 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432. \u041f\u0430\u0440\u043e\u043b\u044c \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u044c \u043a\u0430\u043a \u0431\u0443\u043a\u0432\u044b, \u0442\u0430\u043a \u0438 \u0446\u0438\u0444\u0440\u044b.","Please make sure your passwords match.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430 \u0443\u0431\u0435\u0434\u0438\u0442\u0435\u0441\u044c, \u0447\u0442\u043e \u0432\u0430\u0448\u0438 \u043f\u0430\u0440\u043e\u043b\u0438 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u044e\u0442.","Please enter a valid URL. Protocol is required (http:\/\/, https:\/\/ or ftp:\/\/)":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441. \u041d\u0435 \u0437\u0430\u0431\u0443\u0434\u044c\u0442\u0435 \u0443\u043a\u0430\u0437\u0430\u0442\u044c \u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b (http:\/\/, https:\/\/ \u0438\u043b\u0438 ftp:\/\/)","Please enter a valid URL. For example http:\/\/www.example.com or www.example.com":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, http:\/\/www.example.com \u0438\u043b\u0438 www.example.com","Please enter a valid URL Key. For example \"example-page\", \"example-page.html\" or \"anotherlevel\/example-page\".":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b URL Key. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \"example-page\", \"example-page.html\" \u0438\u043b\u0438 \"anotherlevel\/example-page\".","Please enter a valid XML-identifier. For example something_1, block5, id-4.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 XML-\u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0442\u043e\u0440. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, something_1, block5, id-4.","Please enter a valid social security number. For example 123-45-6789.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u0442\u0440\u0430\u0445\u043e\u0432\u0430\u043d\u0438\u044f. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, 123-45-6789.","Please enter a valid zip code. For example 90602 or 90602-1234.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043f\u043e\u0447\u0442\u043e\u0432\u044b\u0439 \u0438\u043d\u0434\u0435\u043a\u0441. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, 9060 \u0438\u043b\u0438 90602-1234.","Please enter a valid zip code.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043f\u043e\u0447\u0442\u043e\u0432\u044b\u0439 \u0438\u043d\u0434\u0435\u043a\u0441.","Please use this date format: dd\/mm\/yyyy. For example 17\/03\/2006 for the 17th of March, 2006.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0434\u043b\u044f \u0434\u0430\u0442\u044b \u0444\u043e\u0440\u043c\u0430\u0442: dd\/mm\/yyyy. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, 17\/03\/2006 \u0434\u043b\u044f 17-\u0433\u043e \u043c\u0430\u0440\u0442\u0430 2006 \u0433\u043e\u0434\u0430.","Please enter a valid $ amount. For example $100.00.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0443\u044e \u0434\u0435\u043d\u0435\u0436\u043d\u0443\u044e \u0432\u0435\u043b\u0438\u0447\u0438\u043d\u0443. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, $100.00.","Please select one of the above options.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043e\u0434\u0438\u043d \u0438\u0437 \u0432\u044b\u0448\u0435\u0443\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0445 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432.","Please select one of the options.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043e\u0434\u0438\u043d \u0438\u0437 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432.","Please select State\/Province.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0448\u0442\u0430\u0442\/\u043f\u0440\u043e\u0432\u0438\u043d\u0446\u0438\u044e.","Please enter a number greater than 0 in this field.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0432 \u044d\u0442\u043e \u043f\u043e\u043b\u0435 \u0447\u0438\u0441\u043b\u043e \u0431\u043e\u043b\u044c\u0448\u0435 0.","Please enter a number 0 or greater in this field.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0432 \u044d\u0442\u043e \u043f\u043e\u043b\u0435 \u0447\u0438\u0441\u043b\u043e \u0431\u043e\u043b\u044c\u0448\u0435 0 \u0438\u043b\u0438 0.","Please enter a valid credit card number.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u043e\u0439 \u043a\u0430\u0440\u0442\u044b.","Credit card number does not match credit card type.":"\u041d\u043e\u043c\u0435\u0440 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u043e\u0439 \u043a\u0430\u0440\u0442\u044b \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u0435\u0442 \u0441 \u0442\u0438\u043f\u043e\u043c \u043a\u0430\u0440\u0442\u044b","Card type does not match credit card number.":"\u0422\u0438\u043f \u043a\u0430\u0440\u0442\u044b \u043d\u0435 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u0435\u0442 \u0441 \u043d\u043e\u043c\u0435\u0440\u043e\u043c \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u043e\u0439 \u043a\u0430\u0440\u0442\u044b.","Incorrect credit card expiration date.":"\u041d\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u0434\u0430\u0442\u0430 \u0438\u0441\u0442\u0435\u0447\u0435\u043d\u0438\u044f \u0441\u0440\u043e\u043a\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0440\u0430\u0441\u0447\u0451\u0442\u043d\u043e\u0439 \u043a\u0430\u0440\u0442\u044b","Please enter a valid credit card verification number.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043f\u0440\u043e\u0432\u0435\u0440\u043e\u0447\u043d\u044b\u0439 \u043d\u043e\u043c\u0435\u0440 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u043e\u0439 \u043a\u0430\u0440\u0442\u044b.","Please input a valid CSS-length. For example 100px or 77pt or 20em or .5ex or 50%.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0443\u044e CSS - \u0434\u043b\u0438\u043d\u0443. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, 100px \u0438\u043b\u0438 77pt \u0438\u043b\u0438 20em \u0438\u043b\u0438 .5ex \u0438\u043b\u0438 50%.","Text length does not satisfy specified text range.":"\u0414\u043b\u0438\u043d\u043d\u0430 \u0442\u0435\u043a\u0441\u0442\u0430 \u043d\u0435 \u0443\u0434\u043e\u0432\u043b\u0435\u0442\u0432\u043e\u0440\u044f\u0435\u0442 \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u043c\u0443 \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d\u0443 \u0442\u0435\u043a\u0441\u0442\u0430.","Please enter a number lower than 100.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0447\u0438\u0441\u043b\u043e \u043c\u0435\u043d\u044c\u0448\u0435 100.","Please enter issue number or start date for switch\/solo card type.":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043d\u043e\u043c\u0435\u0440 \u0432\u043e\u043f\u0440\u043e\u0441\u0430 \u0438\u043b\u0438 \u0434\u0430\u0442\u0443 \u043d\u0430\u0447\u0430\u043b\u0430 \u0434\u043b\u044f \u0442\u0438\u043f\u0430 \u043a\u0430\u0440\u0442\u044b switch\/solo.","Please wait, loading...":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u0434\u043e\u0436\u0434\u0438\u0442\u0435, \u0438\u0434\u0435\u0442 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430...","This date is a required value.":"\u042d\u0442\u0430 \u0434\u0430\u0442\u0430 - \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435.","Please enter a valid day (1-%d).":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u0434\u0435\u043d\u044c (1-%d).","Please enter a valid month (1-12).":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043c\u0435\u0441\u044f\u0446 (1-12).","Please enter a valid year (1900-%d).":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u0433\u043e\u0434 (1900-%d).","Please enter a valid full date":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0443\u044e \u043f\u043e\u043b\u043d\u0443\u044e \u0434\u0430\u0442\u0443.","Please enter a valid date between %s and %s":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0443\u044e \u0434\u0430\u0442\u0443 \u043c\u0435\u0436\u0434\u0443 %s \u0438 %s","Please enter a valid date equal to or greater than %s":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0443\u044e \u0434\u0430\u0442\u0443 \u0440\u0430\u0432\u043d\u0443\u044e \u0438\u043b\u0438 \u0431\u043e\u043b\u044c\u0448\u0435 \u0447\u0435\u043c %s","Please enter a valid date less than or equal to %s":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u0443\u044e \u0434\u0430\u0442\u0443 \u0440\u0430\u0432\u043d\u0443\u044e \u0438\u043b\u0438 \u043c\u0435\u043d\u044c\u0448\u0435 \u0447\u0435\u043c %s","Complete":"\u0417\u0430\u0432\u0435\u0440\u0448\u0451\u043d","Add Products":"\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0442\u043e\u0432\u0430\u0440\u044b","Please choose to register or to checkout as a guest":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0441\u0434\u0435\u043b\u0430\u0439\u0442\u0435 \u0432\u044b\u0431\u043e\u0440: \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0438\u043b\u0438 \u043e\u0444\u043e\u0440\u043c\u0438\u0442\u044c \u0437\u0430\u043a\u0430\u0437 \u0431\u0435\u0437 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043d\u0430 \u0441\u0430\u0439\u0442\u0435","Your order cannot be completed at this time as there is no shipping methods available for it. Please make necessary changes in your shipping address.":"\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043f\u0440\u0438 \u0442\u0435\u043a\u0443\u0449\u0438\u0445 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430\u0445 \u0412\u0430\u0448 \u0437\u0430\u043a\u0430\u0437 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u043a \u043d\u0435\u043c\u0443 \u043d\u0435 \u043f\u0440\u0438\u043c\u0435\u043d\u0438\u043c \u043d\u0438 \u043e\u0434\u0438\u043d \u0438\u0437 \u0441\u043f\u043e\u0441\u043e\u0431\u043e\u0432 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438, \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0445 \u0432 \u043d\u0430\u0448\u0435\u043c \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0435. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u0435\u0440\u0435\u043f\u0440\u043e\u0432\u0435\u0440\u044c\u0442\u0435 \u0430\u0434\u0440\u0435\u0441 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438, \u0432\u043d\u0435\u0441\u0438\u0442\u0435 \u0432 \u043d\u0435\u0433\u043e \u043f\u0440\u0430\u0432\u043a\u0438 \u0438 \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043e\u0444\u043e\u0440\u043c\u0438\u0442\u044c \u0437\u0430\u043a\u0430\u0437 \u0441\u043d\u043e\u0432\u0430. \u0415\u0441\u043b\u0438 \u044d\u0442\u043e \u043d\u0435 \u043f\u043e\u043c\u043e\u0436\u0435\u0442, \u0442\u043e \u0441\u0432\u044f\u0436\u0438\u0442\u0435\u0441\u044c \u0441 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u043e\u043c \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430.","Please specify shipping method.":"\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0441\u043f\u043e\u0441\u043e\u0431 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438.","Your order cannot be completed at this time as there is no payment methods available for it.":"\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043f\u0440\u0438 \u0442\u0435\u043a\u0443\u0449\u0438\u0445 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430\u0445 \u0412\u0430\u0448 \u0437\u0430\u043a\u0430\u0437 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d, \u043f\u043e\u0442\u043e\u043c\u0443 \u0447\u0442\u043e \u043a \u043d\u0435\u043c\u0443 \u043d\u0435 \u043f\u0440\u0438\u043c\u0435\u043d\u0438\u043c \u043d\u0438 \u043e\u0434\u0438\u043d \u0438\u0437 \u0441\u043f\u043e\u0441\u043e\u0431\u043e\u0432 \u043e\u043f\u043b\u0430\u0442\u044b, \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0445 \u0432 \u043d\u0430\u0448\u0435\u043c \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0435. \u0421\u0432\u044f\u0436\u0438\u0442\u0435\u0441\u044c \u0441 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440\u043e\u043c \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430.","Insert Widget...":"\u0412\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0432\u0438\u0434\u0436\u0435\u0442...","Please specify payment method.":"\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0441\u043f\u043e\u0441\u043e\u0431 \u043e\u043f\u043b\u0430\u0442\u044b."});
+        //]]></script></head>
+<body class=" cms-index-index cms-home">
+<style type='text/css'>
+		.sidebar .block-title {
+		text-transform: lowercase;
+	}
+	
+
+	.header .links {
+		text-transform: lowercase;
+	}
+	
+
+	.category-products .ratings {
+		display: none;
+	}
+	
+
+	p.bugs {
+		display: none;
+	}
+	</style>
+<div class="wrapper">
+        <noscript>
+        <div class="global-site-notice noscript">
+            <div class="notice-inner">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong><br />
+                    Вы должны включить JavaScript в вашем браузере, чтобы использовать функциональные возможности этого сайта.                </p>
+            </div>
+        </div>
+    </noscript>
+    <div class="page">
+        <div class="header-container">
+    <div class="header">
+        <div class="logo-block"><h1 class="logo"><strong>Rukodeling.ru</strong><a href="https://rukodeling.ru/" title="Rukodeling.ru" class="logo"><img src="https://rukodeling.ru/skin/frontend/base/theme177/images/logo.gif" alt="Rukodeling.ru" /></a></h1></div>
+        <div class="quick-access">
+            <div class="quick-access-row">
+            					            </div>
+            <p class="welcome-msg">Удачных Вам покупок в магазине Рукоделинг.ru!!!   тел. (499) 391-13-75 </p>
+            <ul class="links">
+                        <li class="first" ><a href="https://rukodeling.ru/customer/account/" title=" " > </a></li>
+                                                                <li class="top-link-gmapstore" id="mouse_header_store_search_container"><a title="Пункты выдачи" href="https://rukodeling.ru/store-locator.html">Пункты выдачи</a></li><script type="text/javascript">if($("mouse_header_store_search_container")){Event.observe("mouse_header_store_search_container", "mouseover", function(event) {$("mouse_header_store_search_box").show();});Event.observe("mouse_header_store_search_container", "mouseleave", function(event) {$("mouse_header_store_search_box").hide();});}</script>                                <li ><a href="https://rukodeling.ru/checkout/cart/" title="Моя корзина" class="top-link-cart">Моя корзина</a></li>
+                                <li ><a href="https://rukodeling.ru/checkout/" title="Оформить заказ" class="top-link-checkout">Оформить заказ</a></li>
+                                <li class=" last" ><a href="https://rukodeling.ru/customer/account/login/" title="Войти" >Войти</a></li>
+            </ul>
+        </div>
+            </div>
+	<div class="nav-container">
+    <ul id="nav">
+        <li class="level0 nav-1 level-top first parent">
+<a href="https://rukodeling.ru/скрапбукинг.html" class="level-top">
+<span>Скрапбукинг</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-1-1 first parent">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки.html">
+<span>Альбомы, бумага, кардсток и заготовки</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-1-1-1 first">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/альбомы.html">
+<span>Альбомы</span>
+</a>
+</li><li class="level2 nav-1-1-2 parent">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/бумага-для-скрапбукинга.html">
+<span>Бумага для скрапбукинга</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-1-2-1 first">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/бумага-для-скрапбукинга/бумага-листами.html">
+<span>Бумага листами</span>
+</a>
+</li><li class="level3 nav-1-1-2-2 last">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/бумага-для-скрапбукинга/бумага-в-наборах.html">
+<span>Бумага в наборах</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-1-1-3">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/аппликации-высечки-чипборд.html">
+<span>Аппликации, высечки, чипборд</span>
+</a>
+</li><li class="level2 nav-1-1-4">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/кардсток.html">
+<span>Кардсток</span>
+</a>
+</li><li class="level2 nav-1-1-5 parent">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки.html">
+<span>Заготовки</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-1-5-3 first">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки/для-альбомов.html">
+<span>Для альбомов</span>
+</a>
+</li><li class="level3 nav-1-1-5-4">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки/для-открыток.html">
+<span>Для открыток</span>
+</a>
+</li><li class="level3 nav-1-1-5-5">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки/для-шкатулок.html">
+<span>Для шкатулок</span>
+</a>
+</li><li class="level3 nav-1-1-5-6">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки/для-бумажных-цветов.html">
+<span>Для бумажных цветов</span>
+</a>
+</li><li class="level3 nav-1-1-5-7">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки/заготовки-из-пенопласта.html">
+<span>Заготовки из пенопласта</span>
+</a>
+</li><li class="level3 nav-1-1-5-8">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки/деревянные-заготовки.html">
+<span>Деревянные заготовки</span>
+</a>
+</li><li class="level3 nav-1-1-5-9">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки/заготовки-из-фоамирана.html">
+<span>Заготовки из фоамирана</span>
+</a>
+</li><li class="level3 nav-1-1-5-10">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки/заготовки-из-фетра.html">
+<span>Заготовки из фетра</span>
+</a>
+</li><li class="level3 nav-1-1-5-11 last">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/заготовки/бонбоньерки.html">
+<span>Бонбоньерки</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-1-1-6 last">
+<a href="https://rukodeling.ru/скрапбукинг/альбомы-бумага-кардсток-и-заготовки/кожзам.html">
+<span>Кожзам</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-1-2 parent">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг.html">
+<span>Штампинг</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-1-2-7 first parent">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/штампы-и-наборы-штампов.html">
+<span>Штампы и наборы штампов</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-2-7-12 first">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/штампы-и-наборы-штампов/отдельные-штампы.html">
+<span>Отдельные штампы</span>
+</a>
+</li><li class="level3 nav-1-2-7-13">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/штампы-и-наборы-штампов/наборы-штампов.html">
+<span>Наборы штампов</span>
+</a>
+</li><li class="level3 nav-1-2-7-14 last">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/штампы-и-наборы-штампов/акриловые-блоки.html">
+<span>Акриловые блоки</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-1-2-8 last parent">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/чернила-и-подушечки.html">
+<span>Чернила и подушечки</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-2-8-15 first">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/чернила-и-подушечки/подушечки-металлик.html">
+<span>Подушечки Металлик</span>
+</a>
+</li><li class="level3 nav-1-2-8-16">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/чернила-и-подушечки/подушечки-с-чернилами-dye-ink.html">
+<span>Подушечки с чернилами dye ink</span>
+</a>
+</li><li class="level3 nav-1-2-8-17">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/чернила-и-подушечки/подушечки-с-пигментными-чернилами.html">
+<span>Подушечки с пигментными чернилами</span>
+</a>
+</li><li class="level3 nav-1-2-8-18">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/чернила-и-подушечки/подушечки-с-меловыми-чернилами.html">
+<span>Подушечки с меловыми чернилами</span>
+</a>
+</li><li class="level3 nav-1-2-8-19">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/чернила-и-подушечки/distress-подушечки.html">
+<span>Distress-подушечки</span>
+</a>
+</li><li class="level3 nav-1-2-8-20">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/чернила-и-подушечки/маркеры-для-штампинга.html">
+<span>Маркеры для штампинга</span>
+</a>
+</li><li class="level3 nav-1-2-8-21">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/чернила-и-подушечки/подушечки-с-сольвентными-чернилами.html">
+<span>Подушечки с сольвентными чернилами</span>
+</a>
+</li><li class="level3 nav-1-2-8-22 last">
+<a href="https://rukodeling.ru/скрапбукинг/штампинг/чернила-и-подушечки/подушечки-для-эмбоссинга.html">
+<span>Подушечки для эмбоссинга</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li><li class="level1 nav-1-3 parent">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка.html">
+<span>Эмбоссинг и вырубка</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-1-3-9 first parent">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/маркеры-и-чернила-для-эмбоссинга.html">
+<span>Маркеры и чернила для эмбоссинга</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-3-9-23 first">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/маркеры-и-чернила-для-эмбоссинга/пигментные-чернила.html">
+<span>Пигментные чернила</span>
+</a>
+</li><li class="level3 nav-1-3-9-24">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/маркеры-и-чернила-для-эмбоссинга/специальные-чернила-для-эмбоссинга.html">
+<span>Специальные чернила для эмбоссинга</span>
+</a>
+</li><li class="level3 nav-1-3-9-25">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/маркеры-и-чернила-для-эмбоссинга/маркеры-для-эмбоссинга.html">
+<span>Маркеры для эмбоссинга</span>
+</a>
+</li><li class="level3 nav-1-3-9-26 last">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/маркеры-и-чернила-для-эмбоссинга/клеевые-подушечки.html">
+<span>Клеевые подушечки</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-1-3-10">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/фены-для-эмбоссинга.html">
+<span>Фены для эмбоссинга</span>
+</a>
+</li><li class="level2 nav-1-3-11 parent">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/машинки-для-тиснения-и-вырубки.html">
+<span>Машинки для тиснения и вырубки</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-3-11-27 first parent">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/машинки-для-тиснения-и-вырубки/формы-для-тиснения-и-вырубки.html">
+<span>Формы для тиснения и вырубки</span>
+</a>
+<ul class="level3">
+<li class="level4 nav-1-3-11-27-1 first">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/машинки-для-тиснения-и-вырубки/формы-для-тиснения-и-вырубки/тиснение.html">
+<span>Тиснение</span>
+</a>
+</li><li class="level4 nav-1-3-11-27-2 last">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/машинки-для-тиснения-и-вырубки/формы-для-тиснения-и-вырубки/вырубка.html">
+<span>Вырубка</span>
+</a>
+</li>
+</ul>
+</li><li class="level3 nav-1-3-11-28 last">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/машинки-для-тиснения-и-вырубки/станки-и-машинки.html">
+<span>Станки и машинки</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-1-3-12">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/инструмент-для-тиснения.html">
+<span>Инструмент для тиснения</span>
+</a>
+</li><li class="level2 nav-1-3-13 last parent">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/пудры-для-эмбоссинга.html">
+<span>Пудры для эмбоссинга</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-3-13-29 first">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/пудры-для-эмбоссинга/цветные-и-металлик-пудры.html">
+<span>Цветные и металлик пудры</span>
+</a>
+</li><li class="level3 nav-1-3-13-30 last">
+<a href="https://rukodeling.ru/скрапбукинг/эмбоссинг-и-вырубка/пудры-для-эмбоссинга/distress-пудры.html">
+<span>Distress-пудры</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li><li class="level1 nav-1-4 parent">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты.html">
+<span>Инструменты</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-1-4-14 first parent">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/маты-ножницы-триммеры-для-бумаги.html">
+<span>Маты, ножницы, триммеры для бумаги</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-4-14-31 first">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/маты-ножницы-триммеры-для-бумаги/маты-для-резки.html">
+<span>Маты для резки</span>
+</a>
+</li><li class="level3 nav-1-4-14-32">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/маты-ножницы-триммеры-для-бумаги/резаки-триммеры-и-расходные-материалы.html">
+<span>Резаки, триммеры и расходные материалы</span>
+</a>
+</li><li class="level3 nav-1-4-14-33 last">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/маты-ножницы-триммеры-для-бумаги/фигурные-ножницы.html">
+<span>Фигурные ножницы</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-1-4-15 parent">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/дыроколы-компостеры.html">
+<span>Дыроколы (компостеры)</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-4-15-34 first">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/дыроколы-компостеры/фигурные-дыроколы.html">
+<span>Фигурные дыроколы</span>
+</a>
+</li><li class="level3 nav-1-4-15-35">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/дыроколы-компостеры/бордюрные-дыроколы.html">
+<span>Бордюрные дыроколы</span>
+</a>
+</li><li class="level3 nav-1-4-15-36 last">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/дыроколы-компостеры/угловые-дыроколы.html">
+<span>Угловые дыроколы</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-1-4-16">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/клей-и-клеящие-средства.html">
+<span>Клей и клеящие средства</span>
+</a>
+</li><li class="level2 nav-1-4-17">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/инструменты-для-тиснения-и-биговки.html">
+<span>Инструменты для тиснения и биговки</span>
+</a>
+</li><li class="level2 nav-1-4-18">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/органайзеры-и-коробочки.html">
+<span>Органайзеры и коробочки</span>
+</a>
+</li><li class="level2 nav-1-4-19">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/установка-люверсов.html">
+<span>Установка люверсов</span>
+</a>
+</li><li class="level2 nav-1-4-20">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/трафареты.html">
+<span>Трафареты</span>
+</a>
+</li><li class="level2 nav-1-4-21">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/молды.html">
+<span>Молды</span>
+</a>
+</li><li class="level2 nav-1-4-22 last">
+<a href="https://rukodeling.ru/скрапбукинг/инструменты/прочие.html">
+<span>Прочие</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-1-5 parent">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары.html">
+<span>Украшения и аксессуары</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-1-5-23 first parent">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/ленты.html">
+<span>Ленты</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-5-23-37 first">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/ленты/ленты-тесьма.html">
+<span>Ленты, тесьма</span>
+</a>
+</li><li class="level3 nav-1-5-23-38">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/ленты/вощеный-шнур.html">
+<span>Вощеный шнур</span>
+</a>
+</li><li class="level3 nav-1-5-23-39 last">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/ленты/кружево.html">
+<span>Кружево</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-1-5-24">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/кольца-для-альбомов.html">
+<span>Кольца для альбомов</span>
+</a>
+</li><li class="level2 nav-1-5-25">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/люверсы.html">
+<span>Люверсы</span>
+</a>
+</li><li class="level2 nav-1-5-26">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/брадсы.html">
+<span>Брадсы</span>
+</a>
+</li><li class="level2 nav-1-5-27">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/пуговки.html">
+<span>Пуговки</span>
+</a>
+</li><li class="level2 nav-1-5-28 parent">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/цветы-тычинки-листья.html">
+<span>Цветы, тычинки, листья</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-1-5-28-40 first">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/цветы-тычинки-листья/цветы.html">
+<span>Цветы</span>
+</a>
+</li><li class="level3 nav-1-5-28-41">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/цветы-тычинки-листья/тычинки.html">
+<span>Тычинки</span>
+</a>
+</li><li class="level3 nav-1-5-28-42 last">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/цветы-тычинки-листья/листья.html">
+<span>Листья</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-1-5-29">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/стикеры-и-натирки.html">
+<span>Стикеры и натирки</span>
+</a>
+</li><li class="level2 nav-1-5-30">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/наборы.html">
+<span>Наборы</span>
+</a>
+</li><li class="level2 nav-1-5-31">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/брелоки.html">
+<span>Брелоки</span>
+</a>
+</li><li class="level2 nav-1-5-32 last">
+<a href="https://rukodeling.ru/скрапбукинг/украшения-и-аксессуары/микробисер-и-пайетки.html">
+<span>Микробисер и пайетки</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-1-6">
+<a href="https://rukodeling.ru/скрапбукинг/жемчуг-лаки-кракелюр.html">
+<span>Жемчуг, лаки, кракелюр</span>
+</a>
+</li><li class="level1 nav-1-7 last">
+<a href="https://rukodeling.ru/скрапбукинг/книги.html">
+<span>Книги</span>
+</a>
+</li>
+</ul>
+</li><li class="level0 nav-2 level-top parent">
+<a href="https://rukodeling.ru/квиллинг.html" class="level-top">
+<span>Квиллинг</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-2-1 first parent">
+<a href="https://rukodeling.ru/квиллинг/бумага-для-квиллинга.html">
+<span>Бумага для квиллинга</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-2-1-1 first">
+<a href="https://rukodeling.ru/квиллинг/бумага-для-квиллинга/одноцветные-наборы.html">
+<span>Одноцветные наборы</span>
+</a>
+</li><li class="level2 nav-2-1-2">
+<a href="https://rukodeling.ru/квиллинг/бумага-для-квиллинга/наборы-ассорти.html">
+<span>Наборы ассорти</span>
+</a>
+</li><li class="level2 nav-2-1-3">
+<a href="https://rukodeling.ru/квиллинг/бумага-для-квиллинга/бумага-для-изготовления-листьев.html">
+<span>Бумага для изготовления листьев</span>
+</a>
+</li><li class="level2 nav-2-1-4">
+<a href="https://rukodeling.ru/квиллинг/бумага-для-квиллинга/бумага-листами-для-квиллинга.html">
+<span>Бумага листами для квиллинга</span>
+</a>
+</li><li class="level2 nav-2-1-5">
+<a href="https://rukodeling.ru/квиллинг/бумага-для-квиллинга/флористическая-лента.html">
+<span>Флористическая лента</span>
+</a>
+</li><li class="level2 nav-2-1-6 last">
+<a href="https://rukodeling.ru/квиллинг/бумага-для-квиллинга/тутовая-бумага.html">
+<span>Тутовая бумага</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-2-2 parent">
+<a href="https://rukodeling.ru/квиллинг/инструменты-для-квиллинга.html">
+<span>Инструменты для квиллинга</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-2-2-7 first">
+<a href="https://rukodeling.ru/квиллинг/инструменты-для-квиллинга/инструменты-для-бумагокручения.html">
+<span>Инструменты для бумагокручения</span>
+</a>
+</li><li class="level2 nav-2-2-8">
+<a href="https://rukodeling.ru/квиллинг/инструменты-для-квиллинга/инструменты-для-резки-клей.html">
+<span>Инструменты для резки, клей</span>
+</a>
+</li><li class="level2 nav-2-2-9 last parent">
+<a href="https://rukodeling.ru/квиллинг/инструменты-для-квиллинга/вырубка-заготовок.html">
+<span>Вырубка заготовок</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-2-2-9-1 first">
+<a href="https://rukodeling.ru/квиллинг/инструменты-для-квиллинга/вырубка-заготовок/дыроколы-для-заготовок.html">
+<span>Дыроколы для заготовок</span>
+</a>
+</li><li class="level3 nav-2-2-9-2 last">
+<a href="https://rukodeling.ru/квиллинг/инструменты-для-квиллинга/вырубка-заготовок/ножи-для-вырубки.html">
+<span>Ножи для вырубки</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li><li class="level1 nav-2-3 parent">
+<a href="https://rukodeling.ru/квиллинг/наборы-для-квиллинга.html">
+<span>Наборы для квиллинга</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-2-3-10 first">
+<a href="https://rukodeling.ru/квиллинг/наборы-для-квиллинга/инструменты-и-бумага.html">
+<span>Инструменты и бумага</span>
+</a>
+</li><li class="level2 nav-2-3-11 last">
+<a href="https://rukodeling.ru/квиллинг/наборы-для-квиллинга/бумага-для-конкретных-работ.html">
+<span>Бумага для конкретных работ</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-2-4">
+<a href="https://rukodeling.ru/квиллинг/подложки.html">
+<span>Подложки</span>
+</a>
+</li><li class="level1 nav-2-5">
+<a href="https://rukodeling.ru/квиллинг/заготовки-для-открыток.html">
+<span>Заготовки для открыток</span>
+</a>
+</li><li class="level1 nav-2-6 parent">
+<a href="https://rukodeling.ru/квиллинг/аксессуары-и-украшения.html">
+<span>Аксессуары и украшения</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-2-6-12 first">
+<a href="https://rukodeling.ru/квиллинг/аксессуары-и-украшения/украшения.html">
+<span>Украшения</span>
+</a>
+</li><li class="level2 nav-2-6-13">
+<a href="https://rukodeling.ru/квиллинг/аксессуары-и-украшения/рамки-для-квиллинга.html">
+<span>Рамки для квиллинга</span>
+</a>
+</li><li class="level2 nav-2-6-14">
+<a href="https://rukodeling.ru/квиллинг/аксессуары-и-украшения/заготовки-под-шкатулки.html">
+<span>Заготовки под шкатулки</span>
+</a>
+</li><li class="level2 nav-2-6-15">
+<a href="https://rukodeling.ru/квиллинг/аксессуары-и-украшения/магнитики-для-поделок.html">
+<span>Магнитики для поделок</span>
+</a>
+</li><li class="level2 nav-2-6-16">
+<a href="https://rukodeling.ru/квиллинг/аксессуары-и-украшения/тычинки.html">
+<span>Тычинки</span>
+</a>
+</li><li class="level2 nav-2-6-17">
+<a href="https://rukodeling.ru/квиллинг/аксессуары-и-украшения/заготовки-из-пенопласта.html">
+<span>Заготовки из пенопласта</span>
+</a>
+</li><li class="level2 nav-2-6-18 last">
+<a href="https://rukodeling.ru/квиллинг/аксессуары-и-украшения/часовые-стрелки-и-механизмы.html">
+<span>Часовые стрелки и механизмы</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-2-7 parent">
+<a href="https://rukodeling.ru/квиллинг/гофроквиллинг.html">
+<span>Гофроквиллинг</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-2-7-19 first">
+<a href="https://rukodeling.ru/квиллинг/гофроквиллинг/гофрокартон-для-квиллинга-миксы.html">
+<span>Гофрокартон для квиллинга (миксы)</span>
+</a>
+</li><li class="level2 nav-2-7-20">
+<a href="https://rukodeling.ru/квиллинг/гофроквиллинг/одноцветные-наборы-гофрокартона.html">
+<span>Одноцветные наборы гофрокартона</span>
+</a>
+</li><li class="level2 nav-2-7-21 last">
+<a href="https://rukodeling.ru/квиллинг/гофроквиллинг/аксессуары-для-гофроквиллинга.html">
+<span>Аксессуары для гофроквиллинга</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-2-8 last">
+<a href="https://rukodeling.ru/квиллинг/книги.html">
+<span>Книги</span>
+</a>
+</li>
+</ul>
+</li><li class="level0 nav-3 level-top parent">
+<a href="https://rukodeling.ru/создаем-цветы-из.html" class="level-top">
+<span>Создаем цветы из...</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-3-1 first parent">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран.html">
+<span>Фоамиран</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-3-1-1 first parent">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/материалы.html">
+<span>Материалы</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-3-1-1-1 first">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/материалы/фоамиран.html">
+<span>Фоамиран</span>
+</a>
+</li><li class="level3 nav-3-1-1-2">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/материалы/тычинки.html">
+<span>Тычинки</span>
+</a>
+</li><li class="level3 nav-3-1-1-3">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/материалы/элементы-флористики.html">
+<span>Элементы флористики</span>
+</a>
+</li><li class="level3 nav-3-1-1-4">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/материалы/краска.html">
+<span>Краска</span>
+</a>
+</li><li class="level3 nav-3-1-1-5 last">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/материалы/фетр.html">
+<span>Фетр</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-3-1-2 last parent">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/инструменты.html">
+<span>Инструменты</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-3-1-2-6 first">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/инструменты/молды.html">
+<span>Молды</span>
+</a>
+</li><li class="level3 nav-3-1-2-7">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/инструменты/каттеры.html">
+<span>Каттеры</span>
+</a>
+</li><li class="level3 nav-3-1-2-8 last">
+<a href="https://rukodeling.ru/создаем-цветы-из/фоамиран/инструменты/прочее.html">
+<span>Прочее</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li><li class="level1 nav-3-2 parent">
+<a href="https://rukodeling.ru/создаем-цветы-из/кристальные-цветы.html">
+<span>Кристальные цветы</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-3-2-3 first parent">
+<a href="https://rukodeling.ru/создаем-цветы-из/кристальные-цветы/материалы.html">
+<span>Материалы</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-3-2-3-9 first">
+<a href="https://rukodeling.ru/создаем-цветы-из/кристальные-цветы/материалы/кристальная-бумага.html">
+<span>Кристальная бумага</span>
+</a>
+</li><li class="level3 nav-3-2-3-10">
+<a href="https://rukodeling.ru/создаем-цветы-из/кристальные-цветы/материалы/фоны.html">
+<span>Фоны</span>
+</a>
+</li><li class="level3 nav-3-2-3-11">
+<a href="https://rukodeling.ru/создаем-цветы-из/кристальные-цветы/материалы/тычинки.html">
+<span>Тычинки</span>
+</a>
+</li><li class="level3 nav-3-2-3-12">
+<a href="https://rukodeling.ru/создаем-цветы-из/кристальные-цветы/материалы/проволока.html">
+<span>Проволока</span>
+</a>
+</li><li class="level3 nav-3-2-3-13">
+<a href="https://rukodeling.ru/создаем-цветы-из/кристальные-цветы/материалы/тейп-лента.html">
+<span>Тейп-лента</span>
+</a>
+</li><li class="level3 nav-3-2-3-14 last">
+<a href="https://rukodeling.ru/создаем-цветы-из/кристальные-цветы/материалы/краски.html">
+<span>Краски</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-3-2-4 last">
+<a href="https://rukodeling.ru/создаем-цветы-из/кристальные-цветы/инструменты.html">
+<span>Инструменты</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-3-3 last parent">
+<a href="https://rukodeling.ru/создаем-цветы-из/интерьерные-бумажные-цветы.html">
+<span>Интерьерные бумажные цветы</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-3-3-5 first">
+<a href="https://rukodeling.ru/создаем-цветы-из/интерьерные-бумажные-цветы/materialy-dlya-bumazhnyh-cvetov.html">
+<span>Материалы для бумажных цветов</span>
+</a>
+</li><li class="level2 nav-3-3-6 last">
+<a href="https://rukodeling.ru/создаем-цветы-из/интерьерные-бумажные-цветы/instrumenty-dlya-bumazhnyh-cvetov.html">
+<span>Инструменты для бумажных цветов</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li><li class="level0 nav-4 level-top parent">
+<a href="https://rukodeling.ru/доставка.html" class="level-top">
+<span>Доставка</span>
+</a>
+<ul class="level0">
+<li class="level1 nav-4-1 first">
+<a href="https://rukodeling.ru/доставка/ems.html">
+<span>Почта и EMS</span>
+</a>
+</li><li class="level1 nav-4-2">
+<a href="https://rukodeling.ru/доставка/kuryerom.html">
+<span>Курьером</span>
+</a>
+</li><li class="level1 nav-4-3 parent">
+<a href="https://rukodeling.ru/доставка/пункты-выдачи.html">
+<span>Пункты выдачи</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-4-3-1 first">
+<a href="https://rukodeling.ru/доставка/пункты-выдачи/store-locator.html">
+<span>Пункты выдачи на карте</span>
+</a>
+</li><li class="level2 nav-4-3-2 parent">
+<a href="https://rukodeling.ru/доставка/пункты-выдачи/yandex.html">
+<span>Яндекс-доставка</span>
+</a>
+<ul class="level2">
+<li class="level3 nav-4-3-2-1 first">
+<a href="https://rukodeling.ru/доставка/пункты-выдачи/yandex/pickpoint.html">
+<span>Постаматы и ПВЗ Pickpoint</span>
+</a>
+</li><li class="level3 nav-4-3-2-2 last">
+<a href="https://rukodeling.ru/доставка/пункты-выдачи/yandex/boxberry.html">
+<span>Боксберри</span>
+</a>
+</li>
+</ul>
+</li><li class="level2 nav-4-3-3 last">
+<a href="https://rukodeling.ru/доставка/пункты-выдачи/cdek.html">
+<span>ПВЗ СДЭК</span>
+</a>
+</li>
+</ul>
+</li><li class="level1 nav-4-4 last parent">
+<a href="https://rukodeling.ru/доставка/sng.html">
+<span>Доставка в СНГ</span>
+</a>
+<ul class="level1">
+<li class="level2 nav-4-4-4 first">
+<a href="https://rukodeling.ru/доставка/sng/armenia.html">
+<span>Доставка в Армению</span>
+</a>
+</li><li class="level2 nav-4-4-5">
+<a href="https://rukodeling.ru/доставка/sng/belarus.html">
+<span>Доставка в Беларусь</span>
+</a>
+</li><li class="level2 nav-4-4-6">
+<a href="https://rukodeling.ru/доставка/sng/kazaxstan.html">
+<span>Доставка в Казахстан</span>
+</a>
+</li><li class="level2 nav-4-4-7 last">
+<a href="https://rukodeling.ru/доставка/sng/kyrgyzstan.html">
+<span>Доставка в Кыргызстан</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li><li class="level0 nav-5 level-top">
+<a href="https://rukodeling.ru/оплата.html" class="level-top">
+<span>Оплата</span>
+</a>
+</li><li class="level0 nav-6 level-top last">
+<a href="https://rukodeling.ru/контакты.html" class="level-top">
+<span>Контакты</span>
+</a>
+</li>    </ul>
+</div>
+</div>
+        <div class="main-container col2-right-layout">
+			            <div class="main">
+                <div class="indent-main">
+                	<div class="col-main">
+						                        <div class="std"><div class="page-title">
+<h2>Главная страница</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Уважаемые посетители! Рады приветствовать Вас на сайте интернет-магазина товаров для квиллинга, скрапбукинга и создания кристальных цветов и цветов из фоамирана, Рукоделинг.ru.</h3>
+<p>&nbsp;</p>
+<p><span style="color: #000000;"><em><div class='df'>
+	<div class='df-frontend'>
+		<div class='df-catalog'>
+			<div class='df-category'>
+				<div class='df-navigation'>
+					<!--
+						«Иллюстрированное меню товарных разделов»
+					-->
+										<style type='text/css'>
+						.df div.df-frontend .df-catalog .df-category .df-navigation
+							ul.df-categories li.df-category {
+							width: 32.666666666667%;
+						}
+					</style>
+					<ul class='df-categories'>
+													<li class='df-category df-break'>
+								<a
+									href='https://rukodeling.ru/скрапбукинг.html'
+									title='Скрапбукинг'
+									class='df-image-link'
+								>
+									<img
+										src='https://rukodeling.ru/media/catalog/category/_3_1.jpg'
+										alt='Скрапбукинг'
+									/>
+								</a>
+								<a
+									href='https://rukodeling.ru/скрапбукинг.html'
+									class='df-text-link'
+								>
+									<h2 class='df-caption'>
+										Скрапбукинг									</h2>
+								</a>
+							</li>
+													<li class='df-category'>
+								<a
+									href='https://rukodeling.ru/квиллинг.html'
+									title='Квиллинг'
+									class='df-image-link'
+								>
+									<img
+										src='https://rukodeling.ru/media/catalog/category/_7.jpg'
+										alt='Квиллинг'
+									/>
+								</a>
+								<a
+									href='https://rukodeling.ru/квиллинг.html'
+									class='df-text-link'
+								>
+									<h2 class='df-caption'>
+										Квиллинг									</h2>
+								</a>
+							</li>
+													<li class='df-category'>
+								<a
+									href='https://rukodeling.ru/создаем-цветы-из.html'
+									title='Создаем цветы из...'
+									class='df-image-link'
+								>
+									<img
+										src='https://rukodeling.ru/media/catalog/category/file_21.jpg'
+										alt='Создаем цветы из...'
+									/>
+								</a>
+								<a
+									href='https://rukodeling.ru/создаем-цветы-из.html'
+									class='df-text-link'
+								>
+									<h2 class='df-caption'>
+										Создаем цветы из...									</h2>
+								</a>
+							</li>
+													<li class='df-category df-break'>
+								<a
+									href='https://rukodeling.ru/доставка.html'
+									title='Доставка'
+									class='df-image-link'
+								>
+									<img
+										src='https://rukodeling.ru/media/catalog/category/Delivery.jpg'
+										alt='Доставка'
+									/>
+								</a>
+								<a
+									href='https://rukodeling.ru/доставка.html'
+									class='df-text-link'
+								>
+									<h2 class='df-caption'>
+										Доставка									</h2>
+								</a>
+							</li>
+													<li class='df-category'>
+								<a
+									href='https://rukodeling.ru/оплата.html'
+									title='Оплата'
+									class='df-image-link'
+								>
+									<img
+										src='https://rukodeling.ru/media/catalog/category/payment_1.jpg'
+										alt='Оплата'
+									/>
+								</a>
+								<a
+									href='https://rukodeling.ru/оплата.html'
+									class='df-text-link'
+								>
+									<h2 class='df-caption'>
+										Оплата									</h2>
+								</a>
+							</li>
+													<li class='df-category'>
+								<a
+									href='https://rukodeling.ru/контакты.html'
+									title='Контакты'
+									class='df-image-link'
+								>
+									<img
+										src='https://rukodeling.ru/media/catalog/category/Contact-Us-at-UMC.jpg'
+										alt='Контакты'
+									/>
+								</a>
+								<a
+									href='https://rukodeling.ru/контакты.html'
+									class='df-text-link'
+								>
+									<h2 class='df-caption'>
+										Контакты									</h2>
+								</a>
+							</li>
+											</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</em></span></p>
+<p><span style="color: #000000;"><em><br /></em></span></p>
+<p><a title="Перейти в раздел &quot;Акции и скидки&quot;" href="https://rukodeling.ru/akcii/1.html" target="_self"><span style="color: #000000;"><em><img title="Перейти в раздел &quot;Акции и скидки&quot;" src="https://rukodeling.ru/media/wysiwyg/file_75.jpg" alt="Перейти в раздел &quot;Акции и скидки&quot;" /></em></span></a></p>
+</div></div><div class="page-title"><h2 class="subtitle">Новые товары</h2></div>
+                    <ul class="products-grid first">
+                    <li class="item first">
+                <a href="https://rukodeling.ru/набор-ножей-для-вырубки-рамка-подложка-для-фото-10-15-см-изящная-от-агиарт-1532.html" title="Набор ножей для вырубки &quot;Рамка-подложка для Фото 10*15 см Изящная&quot; от АгиАрт, 1532" class="product-image"><img src="https://rukodeling.ru/media/catalog/product/cache/1/small_image/214x/ef3871b3054c7c1007b1451bf5788c95/r/a/nabor-nozhej-dlya-vyrubki-ramka-podlozhka-dlya-foto-10-15-sm-izyaschnaya-ot-agiart-1532.jpg" width="214" height="214" alt="Набор ножей для вырубки &quot;Рамка-подложка для Фото 10*15 см Изящная&quot; от АгиАрт, 1532" /></a>
+                <h3 class="product-name"><a href="https://rukodeling.ru/набор-ножей-для-вырубки-рамка-подложка-для-фото-10-15-см-изящная-от-агиарт-1532.html" title="Набор ножей для вырубки &quot;Рамка-подложка для Фото 10*15 см Изящная&quot; от АгиАрт, 1532">Набор ножей для вырубки &quot;Рамка-подложка для Фото 10*15 см Изящная&quot; от АгиАрт, 1532</a></h3>
+                                
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-14598-new">
+                                            <span class="price">935 руб.</span>                                    </span>
+                        
+        </div>
+
+            </li>
+                                <li class="item">
+                <a href="https://rukodeling.ru/нож-для-вырубки-морозное-зеркало-овальное-от-агиарт-1523.html" title="Нож для вырубки &quot;Морозное зеркало овальное&quot; от АгиАрт, 1523" class="product-image"><img src="https://rukodeling.ru/media/catalog/product/cache/1/small_image/214x/ef3871b3054c7c1007b1451bf5788c95/m/o/nozh-dlya-vyrubki-moroznoe-zerkalo-ovalnoe-ot-agiart-1523.jpg" width="214" height="214" alt="Нож для вырубки &quot;Морозное зеркало овальное&quot; от АгиАрт, 1523" /></a>
+                <h3 class="product-name"><a href="https://rukodeling.ru/нож-для-вырубки-морозное-зеркало-овальное-от-агиарт-1523.html" title="Нож для вырубки &quot;Морозное зеркало овальное&quot; от АгиАрт, 1523">Нож для вырубки &quot;Морозное зеркало овальное&quot; от АгиАрт, 1523</a></h3>
+                                
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-14596-new">
+                                            <span class="price">397 руб.</span>                                    </span>
+                        
+        </div>
+
+            </li>
+                                <li class="item last">
+                <a href="https://rukodeling.ru/набор-ножей-для-вырубки-хоровод-снежинок-от-агиарт-1519.html" title="Набор ножей для вырубки &quot;Хоровод снежинок&quot; от АгиАрт, 1519" class="product-image"><img src="https://rukodeling.ru/media/catalog/product/cache/1/small_image/214x/ef3871b3054c7c1007b1451bf5788c95/h/o/nabor-nozhej-dlya-vyrubki-horovod-snezhinok-ot-agiart-1519.jpg" width="214" height="214" alt="Набор ножей для вырубки &quot;Хоровод снежинок&quot; от АгиАрт, 1519" /></a>
+                <h3 class="product-name"><a href="https://rukodeling.ru/набор-ножей-для-вырубки-хоровод-снежинок-от-агиарт-1519.html" title="Набор ножей для вырубки &quot;Хоровод снежинок&quot; от АгиАрт, 1519">Набор ножей для вырубки &quot;Хоровод снежинок&quot; от АгиАрт, 1519</a></h3>
+                                
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-14592-new">
+                                            <span class="price">463 руб.</span>                                    </span>
+                        
+        </div>
+
+            </li>
+                </ul>
+                            <ul class="products-grid ">
+                    <li class="item first">
+                <a href="https://rukodeling.ru/нож-для-вырубки-пальмовая-ветвь-от-агиарт-1489.html" title="Нож для вырубки &quot;Пальмовая ветвь&quot; от АгиАрт, 1489" class="product-image"><img src="https://rukodeling.ru/media/catalog/product/cache/1/small_image/214x/ef3871b3054c7c1007b1451bf5788c95/p/a/nozh-dlya-vyrubki-palmovaya-vetv-ot-agiart-1489-2.jpg" width="214" height="214" alt="Нож для вырубки &quot;Пальмовая ветвь&quot; от АгиАрт, 1489" /></a>
+                <h3 class="product-name"><a href="https://rukodeling.ru/нож-для-вырубки-пальмовая-ветвь-от-агиарт-1489.html" title="Нож для вырубки &quot;Пальмовая ветвь&quot; от АгиАрт, 1489">Нож для вырубки &quot;Пальмовая ветвь&quot; от АгиАрт, 1489</a></h3>
+                                
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-14590-new">
+                                            <span class="price">279 руб.</span>                                    </span>
+                        
+        </div>
+
+            </li>
+                                <li class="item">
+                <a href="https://rukodeling.ru/нож-для-вырубки-с-новым-годом-5-от-агиарт-1525.html" title="Нож для вырубки &quot;С Новым Годом №5&quot; от АгиАрт, 1525" class="product-image"><img src="https://rukodeling.ru/media/catalog/product/cache/1/small_image/214x/ef3871b3054c7c1007b1451bf5788c95/s/-/nozh-dlya-vyrubki-s-novym-godom-5-ot-agiart-1525.jpg" width="214" height="214" alt="Нож для вырубки &quot;С Новым Годом №5&quot; от АгиАрт, 1525" /></a>
+                <h3 class="product-name"><a href="https://rukodeling.ru/нож-для-вырубки-с-новым-годом-5-от-агиарт-1525.html" title="Нож для вырубки &quot;С Новым Годом №5&quot; от АгиАрт, 1525">Нож для вырубки &quot;С Новым Годом №5&quot; от АгиАрт, 1525</a></h3>
+                                
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-14597-new">
+                                            <span class="price">219 руб.</span>                                    </span>
+                        
+        </div>
+
+            </li>
+                                <li class="item last">
+                <a href="https://rukodeling.ru/нож-для-вырубки-с-новым-годом-6-от-агиарт-1526.html" title="Нож для вырубки &quot;С Новым Годом №6&quot; от АгиАрт, 1526" class="product-image"><img src="https://rukodeling.ru/media/catalog/product/cache/1/small_image/214x/ef3871b3054c7c1007b1451bf5788c95/s/-/nozh-dlya-vyrubki-s-novym-godom-6-ot-agiart-1526.jpg" width="214" height="214" alt="Нож для вырубки &quot;С Новым Годом №6&quot; от АгиАрт, 1526" /></a>
+                <h3 class="product-name"><a href="https://rukodeling.ru/нож-для-вырубки-с-новым-годом-6-от-агиарт-1526.html" title="Нож для вырубки &quot;С Новым Годом №6&quot; от АгиАрт, 1526">Нож для вырубки &quot;С Новым Годом №6&quot; от АгиАрт, 1526</a></h3>
+                                
+
+                
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-14595-new">
+                                            <span class="price">219 руб.</span>                                    </span>
+                        
+        </div>
+
+            </li>
+                </ul>
+                                </div>
+                    <div class="col-right sidebar"><div class="block block-cart">
+        <div class="block-title">
+        <strong><span>Моя корзина</span></strong>
+    </div>
+    <div class="block-content">
+                        <p class="empty">Ваша корзина покупок пуста.</p>
+        </div>
+</div>
+<div class="block-search">
+	<form id="search_mini_form" action="https://rukodeling.ru/catalogsearch/result/" method="get">
+        <div class="form-search">
+            <label for="search">Найти:</label>
+            <input id="search" type="text" name="q" value="" class="input-text" />
+            <button type="submit" title="Найти" class="button"><span><span>Найти</span></span></button>
+            <div id="search_autocomplete" class="search-autocomplete"></div>
+            <script type="text/javascript">
+            //<![CDATA[
+                var searchForm = new Varien.searchForm('search_mini_form', 'search', 'что будем искать?');
+                searchForm.initAutocomplete('https://rukodeling.ru/catalogsearch/ajax/suggest/', 'search_autocomplete');
+            //]]>
+            </script>
+        </div>
+    </form>
+</div><div class="clear-block"></div>
+<!--[POLL--><!--POLL]--></div>
+                    <div class="clear-block"></div>
+					                </div>
+            </div>
+        </div>
+        ﻿<div class="footer-container">
+    <div class="footer">
+		<ul>
+<li><a href="https://rukodeling.ru/about-magento-demo-store">О нас</a></li>
+<li><a href="https://rukodeling.ru/customer-service">Типичные вопросы</a></li>
+<li><a title="Публичная оферта" href="https://rukodeling.ru/oferta.pdf" target="_blank">Публичная оферта</a></li>
+<li><a title="Политика в отношении обработки персональных данных" href="https://rukodeling.ru/privacy-policy" target="_self">Политика обработки ПД</a></li>
+</ul>        <ul class="links">
+                        <li class="first" ><a href="https://rukodeling.ru/catalog/seo_sitemap/category/" title="Карта сайта" >Карта сайта</a></li>
+                                <li ><a href="https://rukodeling.ru/catalogsearch/term/popular/" title="Поисковые запросы" >Поисковые запросы</a></li>
+                                <li ><a href="https://rukodeling.ru/catalogsearch/advanced/" title="Расширенный поиск" >Расширенный поиск</a></li>
+                                <li ><a href="https://rukodeling.ru/sales/guest/form/" title="Заказы и возвраты" >Заказы и возвраты</a></li>
+                                <li ><a href="https://rukodeling.ru/contacts/" title="Обратная связь" >Обратная связь</a></li>
+                                <li class=" last" ><a href="https://rukodeling.ru/store-locator.html" title="Пункты выдачи" >Пункты выдачи</a></li>
+            </ul>
+        <p class="copyright">&copy; 2011-2019 Интернет-магазин Рукоделинг.ru. Все права защищены. </p>В магазине Рукоделинг.ru всегда по отличным ценам <a href="https://rukodeling.ru" title="Товары для квиллинга, скрапбукинга и оригами" target="_blank">бумага для квиллинга, скрапбукинга и оригами, инструменты и украшения</a>.
+    </div>
+</div>
+        <script type='text/javascript'>
+	/** @type {String} */
+	var scopeName = 'groups';
+	rm.namespace(['df','vk', scopeName].join('.'));
+	jQuery
+		.extend(
+			rm.vk[scopeName]
+			,
+			{
+				enabled: true
+				,
+				applicationId: 32184126				,
+				position: 'right'
+				,
+				verticalOrdering: 2				,
+				settings: {mode: 0, width: "200", height: "290"}			}
+		)
+	;
+</script>
+<!--Start of Zopim Live Chat Script by Diglin GmbH-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?jPpSNM5M4yY4r7AwnK9XDDkmDinydBBB';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script><!--End of Zopim Live Chat Script by Diglin GmbH-->
+<!--Zopim Options by Diglin GmbH--><script>$zopim(function(){
+$zopim.livechat.setDisableSound(false);
+$zopim.livechat.theme.setTheme('classic');
+$zopim.livechat.window.setTitle('Support');
+$zopim.livechat.window.setSize('small');
+$zopim.livechat.setGreetings({'online': 'Задайте вопрос прямо сейчас','offline': 'Оставьте вопрос'});
+$zopim.livechat.button.setPosition('br');
+$zopim.livechat.window.setPosition('br');
+$zopim.livechat.button.setPositionMobile('br');
+$zopim.livechat.bubble.setTitle('Есть вопросы?');
+$zopim.livechat.bubble.setText('Нажмите здесь, чтобы получить ответ!');
+$zopim.livechat.bubble.show();
+$zopim.livechat.theme.setColor('#cc3333', 'primary');
+$zopim.livechat.theme.setColor('#E59341', 'bubble');
+$zopim.livechat.theme.reload();
+$zopim.livechat.setLanguage('ru');
+});
+</script><!--EOF Zopim Options by Diglin GmbH-->
+    </div>
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter24809240 = new Ya.Metrika({
+                    id:24809240,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/24809240" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96604481-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<a href="https://money.yandex.ru" target="_blank"> <img src="https://money.yandex.ru/img/yamoney_button.gif" alt="Я принимаю Яндекс.Деньги" title="Я принимаю Яндекс.Деньги" border="0" width="88" height="31"/></a>
+<a href="https://www.webmoney.ru" target="_blank"> <img src="https://www.webmoney.ru/img/icons/88x31_wm_blue_on_transparent_ru.png" alt="Мы принимаем Webmoney" title=" Мы принимаем Webmoney" border="0" width="88" height="31"/></a>
+<a href="https://rukodeling.ru/%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B0.html" target="_blank"> <img src="https://rukodeling.ru/media/wysiwyg/qiwi-gorizontal.jpg" alt="Оплата через Киви-кошелек и терминалы" title=" Оплата через Киви-кошелек и терминалы" border="0" width="88" height="31"/></a>
+<a href="https://rukodeling.ru/%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B0.html" target="_blank"> <img src="https://rukodeling.ru/media/wysiwyg/visa.jpg" alt=" Оплата с помощью банковских карт" title=" Оплата с помощью банковских карт" border="0" width="88" height="31"/></a>
+<a href="https://rukodeling.ru/%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D0%B0.html" target="_blank"> <img src="https://rukodeling.ru/media/wysiwyg/Mastercard.jpg" alt=" Оплата с помощью банковских карт" title=" Оплата с помощью банковских карт" border="0" width="88" height="31"/></a>
+<!-- Start of Zopim Live Chat Script -->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=
+z.s=d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o
+){z.set._.push(o)};$.setAttribute('charset','utf-8');$.async=!0;z.set.
+_=[];$.src=('https:'==d.location.protocol?'https://ssl':'http://cdn')+
+'.zopim.com/?jPpSNM5M4yY4r7AwnK9XDDkmDinydBBB';$.type='text/java'+s;z.
+t=+new Date;z._=[];e.parentNode.insertBefore($,e)})(document,'script')
+</script>
+<!-- End of Zopim Live Chat Script --><div class="no-display"> <form action="https://rukodeling.ru/welcomb/index/pot/" method="post"> <input type="text" name="name"/> <input type="text" name="email"/> <textarea name="message" rows="5" cols="40"></textarea> </form> <form action="https://rukodeling.ru/welcomb/index/pot/" method="post"> <input type="text" name="q"/> <input type=submit"> </form> </div><div class="no-display"> <a href="https://rukodeling.ru/welcomb/index/pot/" rel="nofollow">click here</a> </div></body>
+</html>
