@@ -2,61 +2,79 @@
 
 @section('title', $domain->name)
 
+@section('nav')
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('domains.create') }}">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ route('domains.index') }}">Domains</a>
+        </li>
+    </ul>
+@endsection
+
 @section('content')
-    @if (session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
-    @if (session('warning'))
-        <div class="alert alert-warning">
-            {{ session('warning') }}
-        </div>
-    @endif
-    <h1>Site: {{ $domain->name }}</h1>
-    <table>
-        <tr>
-            <td>id</td>
-            <td>{{ $domain->id }}</td>
-        </tr>
-        <tr>
-            <td>name</td>
-            <td>{{ $domain->name }}</td>
-        </tr>
-        <tr>
-            <td>created_at</td>
-            <td>{{ $domain->created_at }}</td>
-        </tr>
-        <tr>
-            <td>updated_at</td>
-            <td>{{ $domain->updated_at }}</td>
-        </tr>
-    </table>
-    <h2>Checks</h2>
-    {{ Form::open(['url' => route('domains.checks.store', ['id' => $domain->id]), 'method' => 'post']) }}
-    {{ Form::token() }}
-    {{ Form::submit('Run check') }}
-    {{ Form::close() }}
-    <table>
-        <tr>
-            <td>Id</td>
-            <td>Status Code</td>
-            <td>h1</td>
-            <td>Keywords</td>
-            <td>Description</td>
-            <td>Created At</td>
-        </tr>
-        @if ($domainChecks->isNotEmpty())
-                    @foreach ($domainChecks->all() as $domainCheck)
-                <tr>
-                    <td>{{ $domainCheck->id }}</td>
-                    <td>{{ $domainCheck->status_code }}</td>
-                    <td>{{ Str::limit($domainCheck->h1, 9) }}</td>
-                    <td>{{ Str::limit($domainCheck->keywords, 30) }}</td>
-                    <td>{{ Str::limit($domainCheck->description, 30) }}</td>
-                    <td>{{ $domainCheck->created_at }}</td>
-                </tr>
-                    @endforeach
+    <main class="flex-grow-1">
+        @if (session('info'))
+            <div class="alert alert-info" role="alert">
+                {{ session('info') }}
+            </div>
         @endif
-    </table>
+        @if (session('danger'))
+            <div class="alert alert-danger" role="alert">
+                {{ session('danger') }}
+            </div>
+        @endif
+        <div class="container-lg">
+            <h1 class="mt-5 mb-3" style="font-size: 2.25rem;">Site: {{ $domain->name }}</h1>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover text-nowrap" style="font-size: 1rem;">
+                    <tr>
+                        <td>id</td>
+                        <td>{{ $domain->id }}</td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td>{{ $domain->name }}</td>
+                    </tr>
+                    <tr>
+                        <td>created_at</td>
+                        <td>{{ $domain->created_at }}</td>
+                    </tr>
+                    <tr>
+                        <td>updated_at</td>
+                        <td>{{ $domain->updated_at }}</td>
+                    </tr>
+                </table>
+            </div>
+            <h2 class="mt-5 mb-3" style="font-size: 1.8rem;">Checks</h2>
+            {{ Form::open(['url' => route('domains.checks.store', ['id' => $domain->id]), 'method' => 'post']) }}
+            {{ Form::token() }}
+            {{ Form::submit('Run check', ['class' => 'btn btn-primary', "style" => "font-size: 0.9rem; background-color: #3490dc;"]) }}
+            {{ Form::close() }}
+            <table class="table table-bordered table-hover text-nowrap mt-3">
+                <tr>
+                    <th>Id</th>
+                    <th>Status Code</th>
+                    <th>h1</th>
+                    <th>Keywords</th>
+                    <th>Description</th>
+                    <th>Created At</th>
+                </tr>
+                @if ($domainChecks->isNotEmpty())
+                    @foreach ($domainChecks->all() as $domainCheck)
+                        <tr>
+                            <td>{{ $domainCheck->id }}</td>
+                            <td>{{ $domainCheck->status_code }}</td>
+                            <td>{{ Str::limit($domainCheck->h1, 9) }}</td>
+                            <td>{{ Str::limit($domainCheck->keywords, 30) }}</td>
+                            <td>{{ Str::limit($domainCheck->description, 30) }}</td>
+                            <td>{{ $domainCheck->created_at }}</td>
+                        </tr>
+                    @endforeach
+                @endif
+            </table>
+
+        </div>
+    </main>
 @endsection
