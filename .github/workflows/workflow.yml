@@ -20,7 +20,7 @@ jobs:
       - name: Setup PHP
         # Action gives to setup the PHP environment to test application
         # https://github.com/shivammathur/setup-php
-        uses: shivammathur/setup-php@v1
+        uses: shivammathur/setup-php@v2
         with:
           # Specify the PHP version
           php-version: '7.4'
