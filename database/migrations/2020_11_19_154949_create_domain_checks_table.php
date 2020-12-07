@@ -19,7 +19,7 @@ class CreateDomainChecksTable extends Migration
             $table->integer('status_code')->nullable();
             $table->char('h1', 255)->nullable();
             $table->char('keywords', 255)->nullable();
-            $table->char('description', 255)->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }
