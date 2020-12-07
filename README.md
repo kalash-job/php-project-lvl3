@@ -9,4 +9,4 @@
 
 ![Page-Analyzer-Github-phpActions](https://github.com/kalash-job/php-project-lvl3/workflows/Page-Analyzer-Github-phpActions/badge.svg)
 
-<p>This project is available on heroku by the <a href="https://obscure-basin-69905.herokuapp.com/">link</a></p>
+<p>This project is available on heroku by the <a href="https://page-seo-analyzer.herokuapp.com/">link</a></p>
