@@ -13,10 +13,10 @@ deploy:
 	git push heroku
 
 lint:
-	composer run-script phpcs -- --standard=PSR12 public tests
+	composer run-script phpcs
 
 lint-fix:
-	composer run-script phpcbf -- --standard=PSR12 public tests
+	composer run-script phpcbf
 
 test-coverage:
 	composer phpunit tests -- --coverage-clover build/logs/clover.xml
