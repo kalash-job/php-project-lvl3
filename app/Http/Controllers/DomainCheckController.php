@@ -37,8 +37,8 @@ class DomainCheckController extends Controller
             $domainData = $this->checkDomain($domainName);
         } catch (\Exception $e) {
             Log::notice("Domain checking error. Id of domain is $id");
-            return redirect()->route('domains.show', ['id' => $id])
-                ->with('danger', 'Something was wrong');
+            flash('Something was wrong')->error();
+            return redirect()->route('domains.show', ['id' => $id]);
         }
 
         DB::table('domain_checks')->insert([
@@ -50,7 +50,7 @@ class DomainCheckController extends Controller
             'created_at' => Carbon::now()->toDateTimeString(),
             'updated_at' => Carbon::now()->toDateTimeString()
         ]);
-        return redirect()->route('domains.show', ['id' => $id])
-            ->with('info', 'Website has been checked!');
+        flash('Website has been checked!');
+        return redirect()->route('domains.show', ['id' => $id]);
     }
 }

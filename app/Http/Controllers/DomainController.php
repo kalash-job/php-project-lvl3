@@ -34,8 +34,8 @@ class DomainController extends Controller
             ->where('name', $domain)
             ->get();
         if ($idOfDomain->isNotEmpty()) {
-            return redirect()->route('domains.show', ['id' => $idOfDomain->implode('id')])
-                ->with('info', 'Url already exists');
+            flash('Url already exists');
+            return redirect()->route('domains.show', ['id' => $idOfDomain->implode('id')]);
         }
 
         $id = DB::table('domains')->insertGetId([
@@ -43,8 +43,8 @@ class DomainController extends Controller
             'created_at' => Carbon::now()->toDateTimeString(),
             'updated_at' => Carbon::now()->toDateTimeString()
         ]);
-        return redirect()->route('domains.show', ['id' => $id])
-            ->with('info', 'Url has been added');
+        flash('Url has been added');
+        return redirect()->route('domains.show', ['id' => $id]);
     }
 
     public function show($id)
