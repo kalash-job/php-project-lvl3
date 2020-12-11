@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use DiDom\Document;
 
-
 class DomainCheckController extends Controller
 {
     private function checkDomain(string $domainName): array
