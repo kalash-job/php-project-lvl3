@@ -35,10 +35,12 @@ class DomainControllerTest extends TestCase
 
     public function testStore()
     {
-        $data = ["name" => "http://htmlbook.ru"];
+        $data = ["name" => "http://htmlbook.ru", 'id' => 7];
         $response = $this->post(route('domains.store'), $data);
         $response->assertSessionHasNoErrors();
         $response->assertRedirect();
         $this->assertDatabaseHas('domains', $data);
+        $response = $this->get(route('domains.show', ['id' => $data['id']]));
+        $response->assertSeeText($data['name']);
     }
 }
