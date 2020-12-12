@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DomainController;
+use App\Http\Controllers\DomainCheckController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,13 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'App\Http\Controllers\DomainController@create')
-    ->name('domains.create');
-Route::post('/', 'App\Http\Controllers\DomainController@store')
-    ->name('domains.store');
-Route::get('/domains/{id}', 'App\Http\Controllers\DomainController@show')
-    ->name('domains.show');
-Route::get('/domains', 'App\Http\Controllers\DomainController@index')
-    ->name('domains.index');
-Route::post('domains/{id}/checks', 'App\Http\Controllers\DomainCheckController@store')
+Route::resource('domains', DomainController::class)->except([
+    'update', 'destroy', 'edit'
+]);
+Route::post('domains/{id}/checks', [DomainCheckController::class, 'store'])
     ->name('domains.checks.store');

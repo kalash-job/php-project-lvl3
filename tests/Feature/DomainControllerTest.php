@@ -29,7 +29,7 @@ class DomainControllerTest extends TestCase
 
     public function testShow()
     {
-        $response = $this->get(route('domains.show', ['id' => 4]));
+        $response = $this->get(route('domains.show', ['domain' => 4]));
         $response->assertOk();
     }
 
@@ -40,7 +40,7 @@ class DomainControllerTest extends TestCase
         $response->assertSessionHasNoErrors();
         $response->assertRedirect();
         $this->assertDatabaseHas('domains', $data);
-        $response = $this->get(route('domains.show', ['id' => $data['id']]));
+        $response = $this->get(route('domains.show', ['domain' => $data['id']]));
         $response->assertSeeText($data['name']);
     }
 }

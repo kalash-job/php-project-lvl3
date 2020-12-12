@@ -50,6 +50,6 @@ class DomainCheckController extends Controller
             'updated_at' => Carbon::now()->toDateTimeString()
         ]);
         flash('Website has been checked!');
-        return redirect()->route('domains.show', ['id' => $id]);
+        return redirect()->route('domains.show', ['domain' => $id]);
     }
 }
