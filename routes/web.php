@@ -15,6 +15,9 @@ use App\Http\Controllers\DomainCheckController;
 |
 */
 
+Route::get('/', [DomainController::class, 'create'])
+    ->name('home');
+
 Route::resource('domains', DomainController::class)->except([
     'update', 'destroy', 'edit'
 ]);
