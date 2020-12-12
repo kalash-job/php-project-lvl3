@@ -22,7 +22,14 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            @yield('nav')
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link{{ App\Helpers\Helpers::getClassActive('domains.create') }}" href="{{ route('domains.create') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link{{ App\Helpers\Helpers::getClassActive('domains.index') }}" href="{{ route('domains.index') }}">Domains</a>
+                </li>
+            </ul>
         </div>
     </nav>
 </header>

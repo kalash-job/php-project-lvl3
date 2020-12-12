@@ -2,17 +2,6 @@
 
 @section('title', 'Check web pages')
 
-@section('nav')
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link active" href="{{ route('domains.create') }}">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="{{ route('domains.index') }}">Domains</a>
-        </li>
-    </ul>
-@endsection
-
 @section('content')
     @if ($errors->any())
         <div class="alert alert-danger" role="alert">Not a valid url</div>

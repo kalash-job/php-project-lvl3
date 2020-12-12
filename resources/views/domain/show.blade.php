@@ -2,17 +2,6 @@
 
 @section('title', $domain->name)
 
-@section('nav')
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" href="{{ route('domains.create') }}">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="{{ route('domains.index') }}">Domains</a>
-        </li>
-    </ul>
-@endsection
-
 @section('content')
     <main class="flex-grow-1">
         @include('flash::message')
