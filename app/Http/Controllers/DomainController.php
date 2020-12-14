@@ -25,17 +25,6 @@ class DomainController extends Controller
         return view('domain.index', compact('domains'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        $domain = ['name' => ''];
-        return view('domain.create', compact('domain'));
-    }
-
     private function normalize(string $domain): string
     {
         $domainParsed = parse_url($domain);

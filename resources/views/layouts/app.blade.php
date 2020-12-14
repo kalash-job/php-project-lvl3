@@ -16,7 +16,7 @@
 <body class="d-flex flex-column" style="font-family: Nunito,sans-serif;font-size: .9rem;line-height: 1.6;">
 <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" style="font-size: 1.125rem;line-height: 1.5;" href="{{ route('home') }}">Analyzer</a>
+        <a class="navbar-brand" style="font-size: 1.125rem;line-height: 1.5;" href="{{ route('index') }}">Analyzer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link{{ App\Helpers\Helpers::getClassActive('home') }}" href="{{ route('home') }}">Home</a>
+                    <a class="nav-link{{ App\Helpers\Helpers::getClassActive('index') }}" href="{{ route('index') }}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link{{ App\Helpers\Helpers::getClassActive('domains.index') }}" href="{{ route('domains.index') }}">Domains</a>

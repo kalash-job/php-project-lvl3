@@ -21,12 +21,6 @@ class DomainControllerTest extends TestCase
         $response->assertOk();
     }
 
-    public function testCreate()
-    {
-        $response = $this->get(route('domains.create'));
-        $response->assertOk();
-    }
-
     public function testShow()
     {
         $response = $this->get(route('domains.show', ['domain' => 4]));

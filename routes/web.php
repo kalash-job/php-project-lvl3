@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DomainController;
 use App\Http\Controllers\DomainCheckController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +16,11 @@ use App\Http\Controllers\DomainCheckController;
 |
 */
 
-Route::get('/', [DomainController::class, 'create'])
-    ->name('home');
+Route::resource('/', HomeController::class)->only(['index']);
 
 Route::resource('domains', DomainController::class)->except([
     'update', 'destroy', 'edit'
 ]);
+
 Route::post('domains/{id}/checks', [DomainCheckController::class, 'store'])
     ->name('domains.checks.store');
