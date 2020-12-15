@@ -23,10 +23,15 @@ class DomainCheckController extends Controller
         return $domainData;
     }
 
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param \Illuminate\Http\Request $request
+     * @return \Illuminate\Http\Response
+     */
     public function store(Request $request)
     {
-        $id = $request->id;
-
+        $id = $request->domain;
         $domainName = DB::table('domains')
             ->select('name')
             ->where('id', $id)
@@ -37,7 +42,7 @@ class DomainCheckController extends Controller
         } catch (\Exception $e) {
             Log::notice("Domain checking error. Id of domain is $id");
             flash('Something was wrong')->error();
-            return redirect()->route('domains.show', ['id' => $id]);
+            return redirect()->route('domains.show', ['domain' => $id]);
         }
 
         DB::table('domain_checks')->insert([

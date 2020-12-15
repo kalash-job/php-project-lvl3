@@ -16,11 +16,13 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::resource('/', HomeController::class)->only(['index']);
+Route::get('/', function () {
+    $domain = ['name' => ''];
+    return view('home.index', compact('domain'));
+})->name('index');
 
 Route::resource('domains', DomainController::class)->except([
     'update', 'destroy', 'edit'
 ]);
 
-Route::post('domains/{id}/checks', [DomainCheckController::class, 'store'])
-    ->name('domains.checks.store');
+Route::resource('domains.checks', DomainCheckController::class)->only(['store']);

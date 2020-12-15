@@ -30,7 +30,7 @@ class DomainCheckControllerTest extends TestCase
             '*' => Http::response($responseBody, 200)
         ]);
 
-        $response = $this->post(route('domains.checks.store', ['id' => 1]));
+        $response = $this->post(route('domains.checks.store', ['domain' => 1]));
         $response->assertSessionHasNoErrors();
         $response->assertRedirect();
         $this->assertDatabaseHas('domain_checks', $expectedData);
