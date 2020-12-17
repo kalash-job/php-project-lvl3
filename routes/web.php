@@ -17,8 +17,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', function () {
-    $domain = ['name' => ''];
-    return view('home.index', compact('domain'));
+    return view('home.index');
 })->name('index');
 
 Route::resource('domains', DomainController::class)->except([
