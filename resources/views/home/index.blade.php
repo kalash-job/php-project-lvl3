@@ -12,7 +12,7 @@
                         <p class="lead" style="font-size: 1.125rem;line-height: 1.5;">Check web pages for free</p>
                         {{ Form::open(['url' => route('domains.store'), 'method' => 'post', 'class' => ['d-flex', 'justify-content-center']]) }}
                         {{ Form::token() }}
-                        {{ Form::text('name', $value = old('name'), ['placeholder' => "https://www.example.com",
+                        {{ Form::text('name', old('name'), ['placeholder' => "https://www.example.com",
 'class' => ['form-control', 'form-control-lg'],
 "style" => "font-size: 1.125rem;"]) }}
                         {{ Form::submit('Check', ['class' => ['btn', 'btn-lg', 'btn-primary', 'ml-3', 'px-5', 'text-uppercase'],
