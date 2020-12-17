@@ -7,7 +7,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
-class HomeControllerTest extends TestCase
+class HomeTest extends TestCase
 {
     public function setUp(): void
     {
