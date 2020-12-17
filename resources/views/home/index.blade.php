@@ -3,9 +3,6 @@
 @section('title', 'Check web pages')
 
 @section('content')
-    @if ($errors->any())
-        <div class="alert alert-danger" role="alert">Not a valid url</div>
-    @endif
     <main class="flex-grow-1">
         <div class="jumbotron jumbotron-fluid bg-dark">
             <div class="container-lg">

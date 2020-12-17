@@ -27,14 +27,18 @@
                     <a class="nav-link{{ App\Helpers\Helpers::getClassActive('index') }}" href="{{ route('index') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link{{ App\Helpers\Helpers::getClassActive('domains.index') }}" href="{{ route('domains.index') }}">Domains</a>
+                    <a class="nav-link{{ App\Helpers\Helpers::getClassActive('domains.index') }}"
+                       href="{{ route('domains.index') }}">Domains</a>
                 </li>
             </ul>
         </div>
     </nav>
 </header>
+@include('flash::message')
+@foreach($errors->all() as $error)
+    <div class="alert alert-danger" role="alert">{{ $error }}</div>
+@endforeach
 @yield('content')
-
 <footer class="border-top py-3 mt-5">
     <div class="container-lg">
         <div class="text-center">

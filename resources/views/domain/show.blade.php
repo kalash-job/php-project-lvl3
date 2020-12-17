@@ -4,7 +4,6 @@
 
 @section('content')
     <main class="flex-grow-1">
-        @include('flash::message')
         <div class="container-lg">
             <h1 class="mt-5 mb-3" style="font-size: 2.25rem;">Site: {{ $domain->name }}</h1>
             <div class="table-responsive">
