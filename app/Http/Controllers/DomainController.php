@@ -16,13 +16,18 @@ class DomainController extends Controller
     public function index()
     {
         $domains = DB::table('domains')
-            ->leftJoin('domain_checks', 'domains.id', '=', 'domain_checks.domain_id')
-            ->select('domains.id', 'domains.name', 'domain_checks.status_code', 'domain_checks.created_at')
-            ->distinct('domains.id')
-            ->orderBy('domains.id')
-            ->orderBy('domain_checks.updated_at', 'desc')
+            ->select('id', 'name')
+            ->orderBy('id')
             ->get();
-        return view('domain.index', compact('domains'));
+        $lastChecks = DB::table('domain_checks')
+            ->select('domain_id', 'status_code', 'created_at')
+            ->distinct('domain_id')
+            ->orderBy('domain_id')
+            ->orderBy('id', 'desc')
+            ->get()
+            ->groupBy('domain_id')
+            ->all();
+        return view('domain.index', compact('domains', 'lastChecks'));
     }
 
     private function normalize(string $domain): string

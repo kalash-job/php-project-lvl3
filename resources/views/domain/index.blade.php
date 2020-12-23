@@ -20,8 +20,8 @@
                                 <td>{{ $domain->id }}</td>
                                 <td><a href="{{route('domains.show', ['domain' => $domain->id])}}">{{ $domain->name }}</a>
                                 </td>
-                                <td>{{ $domain->created_at }}</td>
-                                <td>{{ $domain->status_code }}</td>
+                                <td>{{ $lastChecks[$domain->id][0]->created_at ?? '' }}</td>
+                                <td>{{ $lastChecks[$domain->id][0]->status_code ?? '' }}</td>
                             </tr>
                         @endforeach
                     @endif
