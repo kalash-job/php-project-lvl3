@@ -33,8 +33,8 @@ class DomainController extends Controller
     private function normalize(string $domain): string
     {
         $domainParsed = parse_url($domain);
-        $scheme = mb_strtolower($domainParsed['scheme'] ?? null);
-        $host = mb_strtolower($domainParsed['host'] ?? null);
+        $scheme = mb_strtolower($domainParsed['scheme']);
+        $host = mb_strtolower($domainParsed['host']);
         return "$scheme://$host";
     }
 
