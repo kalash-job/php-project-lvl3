@@ -27,7 +27,7 @@
                 </table>
             </div>
             <h2 class="mt-5 mb-3" style="font-size: 1.8rem;">Checks</h2>
-            {{ Form::open(['url' => route('domains.checks.store', ['domain' => $domain->id]), 'method' => 'post']) }}
+            {{ Form::open(['url' => route('domains.checks.store', $domain->id), 'method' => 'post']) }}
             {{ Form::token() }}
             {{ Form::submit('Run check', ['class' => 'btn btn-primary', "style" => "font-size: 0.9rem; background-color: #3490dc;"]) }}
             {{ Form::close() }}
