@@ -72,21 +72,20 @@ class DomainController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $domain
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($domain)
+    public function show($id)
     {
         $domainData = DB::table('domains')
-            ->where('id', $domain)
-            ->get();
-        if ($domainData->isEmpty()) {
+            ->find($id);
+        if (empty($domainData)) {
             abort(404);
         }
         $domainChecks = DB::table('domain_checks')
-            ->where('domain_id', $domain)
+            ->where('domain_id', $id)
             ->orderBy('id', 'desc')
             ->get();
-        return view('domain.show', ['domain' => $domainData[0], 'domainChecks' => $domainChecks]);
+        return view('domain.show', ['domain' => $domainData, 'domainChecks' => $domainChecks]);
     }
 }
