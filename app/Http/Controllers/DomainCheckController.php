@@ -8,6 +8,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;
 use DiDom\Document;
+use Illuminate\Http\Client\RequestException;
+use Illuminate\Http\Client\ConnectionException;
 
 class DomainCheckController extends Controller
 {
@@ -17,7 +19,7 @@ class DomainCheckController extends Controller
         $document = new Document($response->body());
         $domainData = [];
         $domainData['statusCode'] = $response->status();
-        $domainData['h1'] = $document->has('h1') ? $document->first('h1')->text() : null;
+        $domainData['h1'] = optional($document->first('h1'))->text();
         $domainData['keywords'] = optional($document->first('meta[name=keywords]'))->content;
         $domainData['description'] = optional($document->first('meta[name=description]'))->content;
         return $domainData;
@@ -33,15 +35,13 @@ class DomainCheckController extends Controller
     {
         $id = $request->domain;
         $domainName = DB::table('domains')
-            ->select('name')
-            ->where('id', $id)
-            ->first()
+            ->find($id)
             ->name;
         try {
             $domainData = $this->checkDomain($domainName);
-        } catch (\Exception $e) {
-            Log::notice("Domain checking error. Id of domain is $id");
-            flash('Something was wrong')->error();
+        } catch (RequestException | ConnectionException $e) {
+            Log::notice($e->getMessage());
+            flash($e->getMessage())->error();
             return redirect()->route('domains.show', $id);
         }
 
