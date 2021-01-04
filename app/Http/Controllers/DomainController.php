@@ -21,6 +21,7 @@ class DomainController extends Controller
             ->get();
         $lastChecks = DB::table('domain_checks')
             ->select('domain_id', 'status_code', 'created_at')
+            ->whereIn('domain_id', $domains->pluck('id'))
             ->distinct('domain_id')
             ->orderBy('domain_id')
             ->orderBy('id', 'desc')
